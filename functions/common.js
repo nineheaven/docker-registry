@@ -16,7 +16,7 @@ export function getRegistryHost(env, reqHost) {
         case env.REGISTRY_GHCR:
             return 'ghcr.io';
         default:
-            return 'registry-1.docker.io';
+            return 'registry.docker.io';
     }
 }
 /**
